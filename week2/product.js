@@ -81,7 +81,6 @@ createApp({
           this.productData = res.data.products;        
         })
         .catch((err) => {
-          console.dir(err);
         })
     },
     productDetail(item){
